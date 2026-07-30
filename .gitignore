@@ -1,0 +1,46 @@
+# Python and notebooks
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.jupyter/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+kaggle.json
+
+# Dataset material and raw-text exports
+data/
+data_cache/
+*.csv
+*.parquet
+*.jsonl
+fewshot_examples.json
+
+# Model and vector artifacts
+models/
+models_cache/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+
+# Generated predictions and experiment state
+outputs/
+submission*
+results_*
+training_history*
+experiment_summary*
+
+# Platform and editor files
+.DS_Store
+.idea/
+.vscode/
